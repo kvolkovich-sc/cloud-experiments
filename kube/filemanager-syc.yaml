@@ -6,7 +6,7 @@ metadata:
     run: filemanager-demo
 spec:
   ports:
-  - port: 80
+  - port: 3020
     protocol: TCP
   selector:
     run: filemanger-demo

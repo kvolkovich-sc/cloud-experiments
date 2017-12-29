@@ -7,7 +7,7 @@ spec:
   template:
     metadata:
       labels:
-        run: filemenager-demo
+        run: filemanager-demo
     spec:
       containers:
       - name: filemanager-demo
