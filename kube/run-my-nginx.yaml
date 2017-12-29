@@ -12,5 +12,7 @@ spec:
       containers:
       - name: my-nginx
         image: nginx
+        tty: true
+        stdin: true
         ports:
         - containerPort: 80

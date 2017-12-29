@@ -1,0 +1,16 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: filemanager-demo
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        run: filemenager-demo
+    spec:
+      containers:
+      - name: filemanager-demo
+        image: opuscapita/filemanager-demo:latest
+        ports:
+        - containerPort: 3020
