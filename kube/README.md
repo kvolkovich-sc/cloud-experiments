@@ -1,5 +1,7 @@
 # Kubernetes
 
+[kubectl cheatsheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
+
 ## Issues
 
 Fix permissions:
