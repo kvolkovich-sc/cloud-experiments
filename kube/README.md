@@ -2,12 +2,6 @@
 
 [kubectl cheatsheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 
-## Issues
-
-Fix permissions:
-
-`kubectl create clusterrolebinding add-on-cluster-admin --clusterrole=cluster-admin --serviceaccount=kube-system:default`
-
 ## DNS
 
 <service-name>.<namespace-name>.svc.cluster.local
